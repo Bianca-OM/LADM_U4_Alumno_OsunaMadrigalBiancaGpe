@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblTituloHome"
+            android:text="APP PARA REGISTRAR ASISTENCIA"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imgCheck"
+            android:src="@drawable/ic_checkmark"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAsistencia"
+            android:text="REGISTRAR ASISTENCIA"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblAsistencia"
+            android:text="Registrar asistencia: Activar bluetooth para\nconectarse a APK ASISTENCIA y registrar\nsu asistencia (solo se puede una vez al día)"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDatos"
+            android:text="REGISTRAR DATOS"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblDatos"
+            android:text="Registrar datos: Registrar número de\ncontrol y nombre para poder registrar\nsu asistencia via bluetooth"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnConsultar"
+            android:text="CONSULTAR ASISTENCIAS"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblConsultar"
+            android:text="Consultar asistencias: Consultar asistencias\nanteriores registradas via bluetooth"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTest"
+            android:text="PROBAR CHAT BLUETOOTH"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblTest"
+            android:text="Probar chat bluetooth: Comprobar que existe\nconexión, envío y recivido de mensajes bluetooth"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</ScrollView>
